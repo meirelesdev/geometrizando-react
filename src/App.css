@@ -1,0 +1,45 @@
+.title {
+  color:tomato;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: teal;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 30px solid #555;
+}
+
+.rectangle {
+  width: 80px;
+  height: 40px;
+  background: teal;
+}
+
+.art {
+  max-width: 100px;
+  max-height: 150px;
+  border: 1px solid #000;
+  margin: 10px;
+
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
